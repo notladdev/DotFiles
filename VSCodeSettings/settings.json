@@ -1,0 +1,84 @@
+{
+    // Editor Configs
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 1.6,
+    "editor.renderLineHighlight": "gutter",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.parameterHints.enabled": false,
+    "editor.suggestSelection": "first",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.accessibilitySupport": "off",
+    "editor.semanticHighlighting.enabled": false,
+
+    // Workbench Configs
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.activityBar.location": "hidden",
+    "workbench.sideBar.location": "left",
+    "workbench.statusBar.visible": false,
+    "workbench.editor.labelFormat": "short",
+    "workbench.layoutControl.enabled": false,
+
+    // Explorer Configs
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    
+    // Terminal Integrated Configs
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.showExitAlert": false,
+    "terminal.integrated.gpuAcceleration": "off",
+    "terminal.integrated.suggest.enabled": false,
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+
+    // Others Configs
+    "chat.commandCenter.enabled": false,
+    "window.commandCenter": false,
+    "breadcrumbs.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    
+    // Programming Languages Configs
+    "[csharp]": {
+        "editor.maxTokenizationLineLength": 2500,
+        "editor.tabSize": 4
+    },
+    "[sql]": {
+        "editor.tabSize": 2
+    },
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.tabSize": 2
+    },
+    "[javascript]": {
+        "editor.maxTokenizationLineLength": 2500,
+        "editor.tabSize": 2
+    },
+    "[typescript]": {
+        "editor.tabSize": 2
+    },
+    "[html]": {
+        "editor.suggest.insertMode": "replace",
+        "editor.tabSize": 2
+    },
+    "[css]": {
+        "editor.suggest.insertMode": "replace",
+        "editor.tabSize": 2
+    },
+    "[java]": {
+        "editor.tabSize": 4
+    }
+}
